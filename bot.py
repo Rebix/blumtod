@@ -382,3 +382,5 @@ if __name__ == "__main__":
         app.main()
     except KeyboardInterrupt:
         sys.exit()
+    except Exception as e:
+        print(e)
